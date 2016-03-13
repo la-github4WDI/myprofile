@@ -1,0 +1,88 @@
+
+body{
+	background-image: url("/home/leeallan/Documents/WDI/MyProfilePage/background-15.jpg");
+}
+#profilepic {
+	/*float: center;*/
+	margin-left: 2px;
+	/*border: 1px solid white;*/
+	width: 100%;
+	min-height: 361px;
+	display: flex;
+	flex-wrap: wrap;
+}
+div.image {
+	margin-left: 2px;
+	width:361px;
+	height: 361px;
+	background-image:url("file:/home/leeallan/Pictures/profile.png");
+	display: inline-block;
+}
+#favquote {
+	font-size: 60px;
+	float: right;
+	/*border: 1px solid white;*/
+	width:70%;
+	height: 361px;
+	flex-shrink: 1;
+}
+
+#body {
+	display: block;
+	margin-top: 10px;
+	/*border: 2px solid orange;*/
+	max-width: 100%;
+	height: auto;
+	display: flex;	
+	flex-wrap: wrap;
+}
+
+#aboutme {
+	font-size:18px;
+	display: block;
+	margin: 1px;
+	position: relative;
+	/*border: 1px solid black;*/
+	width: 33%;
+	height: 300px;
+	background-color: silver;
+	opacity: 0.6;
+	border-radius: 8px;
+	/*padding-left: px;*/
+	padding-right: 15px;
+}
+#myprojects {
+	font-size:20px;
+	margin: 1px;
+	text-align: center;
+	position: relative;
+	/*border: 1px solid green;*/
+	width: 32%;
+	height: 300px;
+	background-color: silver;
+	border-radius: 8px;
+	opacity: 0.6;
+}
+
+#contact {
+	display: block;
+	margin: 1px;
+	position: relative;
+	/*border: 1px solid red;*/
+	width: 32%;
+	height: 300px;
+	background-color: silver;
+	border-radius: 8px;
+	opacity: 0.6;
+	padding-left: 15px;
+	font-size: 20px;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+li {
+	margin: 10px 0;
+}
