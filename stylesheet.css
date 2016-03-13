@@ -1,6 +1,6 @@
 
 body{
-	background-image: url("/home/leeallan/Documents/WDI/MyProfilePage/background-15.jpg");
+	background-image: url("https://cloud.githubusercontent.com/assets/16952842/13729531/0ccff8c4-e972-11e5-8109-4918d9e3fda8.jpg");
 }
 #profilepic {
 	/*float: center;*/
@@ -15,7 +15,7 @@ div.image {
 	margin-left: 2px;
 	width:361px;
 	height: 361px;
-	background-image:url("file:/home/leeallan/Pictures/profile.png");
+	background-image:url("https://cloud.githubusercontent.com/assets/16952842/13729534/14b6eebc-e972-11e5-9832-6876063c9947.png");
 	display: inline-block;
 }
 #favquote {
